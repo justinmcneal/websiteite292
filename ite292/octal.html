@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITE 292 Lessons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="Networking">Number Systems</h1>
+            <nav>
+                <ul class="navul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="binary.html">Binary</a></li>
+                    <li><a href="decimal.html">Decimal</a></li>
+                    <li><a href="octal.html">Octal</a></li>
+                    <li><a href="hexadecimal.html">Hexadecimal</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>   
+    
+    <section class="lesson-content">
+        <h1>Octal</h1>
+        <p>The octal number system is a base-8 numbering system that uses the digits 0 through 7. Each digit in an octal number represents a power of 8, making it a compact representation of binary data. Octal is commonly used in computing and digital electronics because it aligns neatly with binary, as each octal digit corresponds to three binary digits.</p>
+        
+        <br><h1>How to Compute Octal?</h1>
+        
+       <h1>Convert 13 to Octal:</h1>
+       <p>Divide the number by 8 and record the quotient and the remainder. Continue dividing the quotient by 8 until the quotient is 0, recording the remainders at each step. The octal equivalent is the remainders read in reverse order (from bottom to top).</p>
+       <br><p>13 ÷ 8 = 1 with a remainder of 5.</p>  
+       <br><p>1 ÷ 8 = 0 with a remainder of 1.</p>       
+       <br><p><strong>Result:</strong> The octal representation of 13 in decimal is 15 in octal.</p>        
+
+    
+
+        <br><h1>Converting Octal to Binary:</h1>
+        <p>Each octal digit can be directly converted to a group of three binary digits (bits).</p>
+        <br><p>1<sup>8</sup> = 001<br>2<sup>5</sup> = 10<sup>1</sup> 2<sup>5</sup> = 10<sup>1</sup> 01<sup>2</sup></p>        
+        <br><p><strong>Result:</strong> 001101 or simply 1101</p>
+        
+
+        
+        <br><h1>Converting Octal to Decimal:</h1>
+        <p>To convert octal to decimal, multiply each digit by 8 raised to the power of its position, starting from the right (0-indexed).</p>
+        <br><p>1 x 8<sup>1</sup> + 5 x 8<sup>0</sup> = 8 + 5 = 13<sub>10</sub></p>
+        <br><p><strong>Result:</strong> The octal is equals to 13 in decimal.</p> 
+               
+
+
+        <br><h1>Converting Octal to Hexadecimal:</h1>
+        <p>To convert from octal to hexadecimal you can follow these steps.</p>
+        <br><p>1 x 8<sup>1</sup> + 5 x 8<sup>0</sup> = 1 x 8 + 5 x 1 = 8 + 5 = 13<sub>10</sub></p>
+        <br><p>Convert Decimal to Hexadecimal</p>
+        <br><p>Divide the decimal number by 16</p>
+        <br><p>13 ÷ 16 = 0 with a remainder of 13</p>
+        <br><p><strong>Result:</strong> octal to 13 in decimal is equal to D in hexadecimal</p>        
+
+    </section>
+</body>
+</html>
